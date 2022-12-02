@@ -5,45 +5,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
-
+  
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-  <div class="navbar">
-    <div class="logo">
-      <img src="img/Adidas_Logo.svg.png" alt="adidas-logo" width="70">
-    </div>
-    <ul class="nav-list">
-      
-        <li class="nav-list-item"><a class="nav-list-item-link" href="#">men</a></li>
-        <li class="nav-list-item"><a class="nav-list-item-link" href="#">women</a></li>
-        <li class="nav-list-item"><a class="nav-list-item-link" href="#">kids</a></li>
-        <li class="nav-list-item"><a class="nav-list-item-link" href="#">gift</a></li>
-        <li class="nav-list-item"><a class="nav-list-item-link" href="#">sale</a></li>
-    </ul>
-    <div class="user-display">
-      <label for="search" class="search">
-        <input type="search" class="search-input" placeholder="search" name="search">
-        <img src="img/magnifying-glass-solid.svg" alt="search-icon" width="20">
-      </label>
-      <span class="user-data">
-        <img src="img/user-regular.svg" alt="user-icon" width="20">
-      </span>
-      <span class="liked-items">
-        <img src="img/heart-regular.svg" alt="like-icon" width="20">
-      </span>
-      <span class="shoping-bag">
-        <img src="img/bag-shopping-solid.svg" alt="basket-icon" width="20">
-      </span>
-      
-    </div>
-  </div>
-</header>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/Adidas_Logo.svg.png" alt="adidas-logo" width="70">
+        </div>
+        <ul class="nav-list">
+          
+          <li class="nav-list-item"><a class="nav-list-item-link" href="#">men</a></li>
+          <li class="nav-list-item"><a class="nav-list-item-link" href="#">women</a></li>
+          <li class="nav-list-item"><a class="nav-list-item-link" href="#">kids</a></li>
+          <li class="nav-list-item"><a class="nav-list-item-link" href="#">gift</a></li>
+          <li class="nav-list-item"><a class="nav-list-item-link" href="#">sale</a></li>
+        </ul>
+        <div class="user-display">
 
+          <label for="search" class="search">
+            <input type="text" class="search-input" placeholder="Search" name="search">
+            <img class="search-icon" src="img/magnifying-glass-solid.svg" alt="search-icon" width="20">
+          </label>
 
+          <span class="user-data user-display-icon ">
+            <img src="img/user-regular.svg" alt="user-icon" width="20">
+          </span>
+
+          <span class="liked-items user-display-icon">
+            <img src="img/heart-regular.svg" alt="like-icon" width="20">
+          </span>
+
+          <span class="shoping-bag user-display-icon">
+            <img src="img/bag-shopping-solid.svg" alt="basket-icon" width="20">
+          </span>
+
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    
+  </header>
+  
+  
   <script src="js/main.js"></script>
 </body>
 </html>
